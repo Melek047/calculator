@@ -1,4 +1,4 @@
-#hesapMak{
+#container{
     margin: 0 auto;
     height: auto;
     width: 400px;
@@ -8,22 +8,24 @@
     padding: 10px;
 }
 
-#gösterge{
-    text-align: center;
+#texfield{
     padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#sonuç{
+#inputTextfield{
+    text-align: right;
     border: 2px solid;
     padding: 10px;
     border-radius: 10px;
-    width: 80%;
-    text-align: right;
+    width: 100%;
     word-wrap: break-word;
     font-size: 40px;
 }
 
-#buttonlar{
+#buttons{
     text-align: center;
 }
 
@@ -33,5 +35,4 @@ button{
     margin: 4px;
     border-radius: 5px;
     background-color: bisque;
-    outline: none;
 }
